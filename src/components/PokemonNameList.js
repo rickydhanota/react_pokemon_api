@@ -14,7 +14,7 @@ const PokemonNameList = (props) => {
         })
         .then(response => {
           // store the json converted data in state so it can be displayed
-          console.log(response.results)
+        //   console.log(response.results)
           setPokemon(response.results)
         })
         .catch((err) => {
